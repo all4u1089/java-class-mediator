@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="callClassMediatorSeq" groupId="com.example.MediatorDemoESB.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/callClassMediatorSeq.xml</file>
+    </artifact>
+    <artifact name="callClassMediator" groupId="com.example.MediatorDemoESB.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/callClassMediator.xml</file>
+    </artifact>
+    <artifact name="resultSeq" groupId="com.example.MediatorDemoESB.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/resultSeq.xml</file>
+    </artifact>
+</artifacts>
